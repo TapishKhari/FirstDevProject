@@ -28,9 +28,10 @@
 }
 
 .header nav .name {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
+
 .header nav .menu-icon {
   color: #fff;
   width: 40px;
@@ -40,7 +41,6 @@
   justify-content: center;
   text-decoration: none;
 }
-
 
 .container-1 .section {
   padding: 120px 24px 120px 24px;
