@@ -47,7 +47,8 @@
 .container-1 {
   width: 375px;
   min-height: 3455px;
-}
+
+} 
 
 .container-1 .section {
   padding: 120px 24px 120px 24px;
@@ -834,4 +835,179 @@
   font-size: 22px;
   line-height: 43px;
   text-align: center;
+}
+
+.form {
+background: #E5E5E5;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 120px 24px 0px 24px;
+/* gap: 58px; */
+width: 375px;
+height: 844px;
+}
+
+.form .para1 {
+width: 327px;
+height: 216px;
+font-family: var(--font4);
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color: #172B4D;
+margin-bottom: 58px;
+}
+.form .form_div {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+width: 327px;
+height: 330px;
+
+}
+
+.form .fname {
+width: 327px;
+height: 48px;
+align-items: center;
+
+padding: 15px 16px;
+}
+
+.full_name {
+height: 18px;
+width:295px;
+font-family: var(--font4);
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #979493;
+list-style: none;
+text-decoration: none;
+border: none;
+background: #E5E5E5;
+}
+
+.name_line {
+height: 1px;
+margin-top: 14px;
+background: #DBD8D7;
+}
+
+.form .form_div .email {
+  width: 327px;
+  height: 48px;
+  margin-top: 24px;
+  padding: 15px 16px;
+  margin-bottom: 24px;
+}
+
+.email_address {
+height: 18px;
+width: 295px;
+font-family: var(--font4);
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #979493;
+border: none;
+background: #E5E5E5;
+}
+
+.email_line {
+height: 1px;
+margin-top: 14px;
+background: #DBD8D7;
+}
+
+.form .form_div .text_area {
+  width: 327px;
+height: 114px;
+margin-bottom: 24px;
+background: #E5E5E5;
+}
+
+.text_box {
+width: 327px;
+height: 114px;
+padding: 12px 12px 12px 12px;
+background:  #E5E5E5;
+
+}
+
+.get_in_touch {
+  width: 131px;
+height: 48px;
+  font-family: var(--font4);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #FF6B00;
+  color: #FFFFFF;
+  text-decoration: none;
+  list-style: none;
+  border-style: none;
+  padding: 12px;
+}
+.get_in_touch:hover {
+  background: white;
+  color: #FF6B00;
+  outline: 2px solid #FF6B00;;
+} 
+
+
+.last_game {
+  width: 375px;
+  height: 81px;
+  background: #E5E5E5;
+}
+
+.icons_line {
+  background: #DFE1E6;
+  width: 375px;
+  height: 1px;
+  margin-left: 0px;
+}
+
+.last-icons ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 87px 13px 88px;
+  padding: 0;
+  color:black;
+  width: 200px;
+height: 40px;
+  justify-content: space-between;  
+}
+
+.last-icons ul li {
+  list-style: none;
+  color: #505F79; 
+  
+}
+
+.final_line {
+width: 134px;
+height: 5px;
+margin-left: 120px;
+background: #0D151E;
+border-radius: 10px;
+align-items: center;
 }
