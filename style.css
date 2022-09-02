@@ -2419,8 +2419,6 @@
     font-size: 17px;
     line-height: 24px;
     display: flex;
-
-    /* align-items: center; */
     text-align: center;
     letter-spacing: 0.03em;
     background: #ff6b00;
@@ -2428,7 +2426,6 @@
     text-decoration: none;
     list-style: none;
     border-style: none;
-    margin-left: 0px;
   }
 
   .get_in_touch:hover {
