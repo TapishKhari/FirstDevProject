@@ -1142,7 +1142,6 @@
   }
 
   .website {
-    /* display: block; */
     width: 300px;
     text-decoration: none;
     display: flex;
