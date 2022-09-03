@@ -389,10 +389,6 @@
   color: #fff;
 }
 
-.page8 .description2 {
-  display: none;
-}
-
 .heading2 {
   display: flex;
   align-items: center;
@@ -1202,7 +1198,7 @@
   }
 
   .container-1 {
-    width: 100%;
+    width: 1440px;
     min-height: 3455px;
   }
 
@@ -2333,6 +2329,7 @@
     height: 330px;
     margin-top: 130px;
     margin-bottom: 228px;
+    outline: 2px solid grey;
   }
 
   .form .fname {
