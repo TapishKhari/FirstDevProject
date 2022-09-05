@@ -16,7 +16,7 @@
 
 ## Link to the live page
 
-> Feel free to check the [](https://tapishkhari.github.io/FirstDevProject/).
+> Feel free to check the [live demo](https://tapishkhari.github.io/FirstDevProject/).
 
 ## Authors
 
