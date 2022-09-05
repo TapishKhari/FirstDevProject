@@ -389,10 +389,6 @@
   color: #fff;
 }
 
-.page8 .description2 {
-  display: none;
-}
-
 .heading2 {
   display: flex;
   align-items: center;
@@ -1788,6 +1784,10 @@
     display: none;
   }
 
+  .page8 .description2 {
+    display: none;
+  }
+
   .page8 .description6-desktop {
     width: 337px;
     height: 72px;
@@ -1931,8 +1931,6 @@
   .icons-desktop {
     display: flex;
     flex-direction: row;
-
-    /* outline: 2px solid red; */
     width: 1157.46px;
     height: 596px;
     justify-content: space-between;
@@ -2331,12 +2329,12 @@
     padding: 0;
     width: 684px;
     height: 330px;
-    margin-top: 130px;
+    margin-top: 110px;
     margin-bottom: 228px;
   }
 
   .form .fname {
-    width: 684px;
+    width: 680px;
     height: 48px;
     align-items: center;
     padding: 15px 16px;
@@ -2431,6 +2429,13 @@
     background: white;
     color: #ff6b00;
     outline: 2px solid #ff6b00;
+    animation-name: example;
+    animation-duration: 5s;
+  }
+
+  @keyframes example {
+    from { background-color: #ff6b00; }
+    to { background-color: yellow; }
   }
 
   .last_game {
