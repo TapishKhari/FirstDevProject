@@ -2429,14 +2429,15 @@
     background: white;
     color: #ff6b00;
     outline: 2px solid #ff6b00;
-    animation-name: example;
-    animation-duration: 5s;
+
+    /* animation-name: example;
+    animation-duration: 5s; */
   }
 
-  @keyframes example {
+  /* @keyframes example {
     from { background-color: #ff6b00; }
     to { background-color: yellow; }
-  }
+  } */
 
   .last_game {
     width: 1440px;
