@@ -51,7 +51,7 @@
   padding-right: 8px;
   right: 0;
   display: block;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   font-size: 30px;
   color: white;
 }
@@ -63,7 +63,7 @@
   right: 0;
   bottom: 0;
   width: 100%;
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   padding-top: 92px;
   visibility: hidden;
 }
@@ -84,14 +84,11 @@
   border-bottom: 1px solid white;
   padding-left: 20px;
   padding-bottom: 12px;
-  
 }
-
 
 .website a {
   color: white;
   text-decoration: none;
-
 }
 
 .container-1 {
@@ -1192,15 +1189,14 @@
     position: relative;
     width: 300px;
     visibility: visible;
-    
   }
 
   .close {
     display: none;
   }
 
-  
-    .website .main-list {
+
+  .website .main-list {
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -1231,7 +1227,6 @@
     margin-right: 15px;
     margin-bottom: 26px;
   }
-
 
   .About-page {
     width: 45px;
