@@ -44,14 +44,64 @@
   text-decoration: none;
 }
 
+.close {
+  position: fixed;
+  top: 0;
+  border: none;
+  padding-right: 8px;
+  right: 0;
+  display: block;
+  background-color: #3C3A39;
+  font-size: 30px;
+  color: white;
+}
+
 .website {
-  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3C3A39;
+  padding-top: 92px;
+  visibility: hidden;
+}
+
+.website .main-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 8px;
+  width: 87.2%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.website li {
+  list-style: none;
+  border-bottom: 1px solid white;
+  padding-left: 20px;
+  padding-bottom: 12px;
+  
+}
+
+
+.website a {
+  color: white;
+  text-decoration: none;
+
 }
 
 .container-1 {
   width: 375px;
   min-height: 3455px;
   margin: auto;
+}
+
+.website.active {
+  visibility: visible;
 }
 
 .container-1 .section {
@@ -1138,13 +1188,29 @@
   }
 
   .website {
+    padding-top: 0;
+    position: relative;
     width: 300px;
+    visibility: visible;
+    
+  }
+
+  .close {
+    display: none;
+  }
+
+  
+    .website .main-list {
     text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     color: #fff;
+  }
+
+  .main-list li {
+    border: none;
   }
 
   .website .portfolio {
@@ -1164,8 +1230,8 @@
     margin-left: 10px;
     margin-right: 15px;
     margin-bottom: 26px;
-    padding: 12px 24px;
   }
+
 
   .About-page {
     width: 45px;
