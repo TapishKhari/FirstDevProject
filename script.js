@@ -41,3 +41,18 @@ if (window.localStorage.getItem('formdata') !== null) {
   field2.value = formdata.youremail;
   field3.value = formdata.yourmessage;
 }
+
+const mail = document.getElementById('mails');
+
+mails.addEventListener('click', () => {
+  const email = field2.value;
+  const small = document.getElementById('small');
+  if (email.toLowerCase() !== email) {
+    small.innerText = 'Enter your email in lower case letters';
+    document.forms[0].addEventListener('submit', (event) => {
+      event.preventDefault();
+    });
+  } else {
+    document.forms[0].submit();
+  }
+});
