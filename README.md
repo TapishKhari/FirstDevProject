@@ -12,7 +12,7 @@
 
 ## Built with
 
-- HTML & CSS
+- HTML , CSS and Javascript
 
 ## Link to the live page
 

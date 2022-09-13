@@ -9,3 +9,35 @@ button.addEventListener('click', () => {
 close.addEventListener('click', () => {
   website.classList.remove('active');
 });
+
+const formdata = {
+  yourname: '',
+  youremail: '',
+  yourmessage: '',
+};
+
+const field1 = document.getElementById('name');
+const field2=  document.getElementById('mail');
+const field3= document.getElementById('msg');
+
+field1.addEventListener('change',() => {
+  formdata.yourname = field1.value;
+  window.localStorage.setItem('formdata', JSON.stringify(formdata));
+});
+
+field2.addEventListener('change',() => {
+  formdata.youremail=field2.value;
+  window.localStorage.setItem('formdata', JSON.stringify(formdata));
+});
+
+field3.addEventListener('change',() => {
+  formdata.yourmessage= field3.value;
+  window.localStorage.setItem('formdata', JSON.stringify(formdata));
+});
+
+if (window.localStorage.getItem('formdata') !== null) {
+  const formdata = JSON.parse(window.localStorage.getItem('formdata'));
+  field1.value= formdata.yourname;
+  field2.value = formdata.youremail;
+  field3.value = formdata.yourmessage;
+}
