@@ -1196,14 +1196,14 @@
     line-height: 20px;
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: left;
     color: #fff;
     text-decoration: none;
   }
 
   .container-1 {
     width: 100%;
-    min-height: 3455px;
+    min-height: 2055px;
   }
 
   .container-1 .section {
