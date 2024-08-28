@@ -56,3 +56,27 @@ mails.addEventListener('click', () => {
     document.forms[0].submit();
   }
 });
+
+
+// JavaScript to handle the download
+document.getElementById("downloadBtn").addEventListener("click", function() {
+    // Replace 'resume.pdf' with the path to your file
+    const resumeUrl = '.Resume-Tapish-Khari.pdf';
+
+    // Create a temporary <a> element to trigger the download
+    const a = document.createElement('a');
+    a.href = resumeUrl;
+
+    // Set the download attribute with a default file name
+    a.download = 'Resume.pdf';
+
+    // Append the <a> element to the body
+    document.body.appendChild(a);
+
+    // Trigger the click event on the <a> element
+    a.click();
+
+    // Remove the <a> element after the download is triggered
+    document.body.removeChild(a);
+});
+
