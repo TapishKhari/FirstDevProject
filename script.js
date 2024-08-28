@@ -61,14 +61,14 @@ mails.addEventListener('click', () => {
 // JavaScript to handle the download
 document.getElementById("downloadBtn").addEventListener("click", function() {
     // Replace 'resume.pdf' with the path to your file
-    const resumeUrl = '.Resume-Tapish-Khari.pdf';
+    const resumeUrl = './Resume-Tapish-Khari.pdf';
 
     // Create a temporary <a> element to trigger the download
     const a = document.createElement('a');
     a.href = resumeUrl;
 
     // Set the download attribute with a default file name
-    a.download = 'Resume.pdf';
+    a.download = 'Resume-Tapish-Khari.pdf';
 
     // Append the <a> element to the body
     document.body.appendChild(a);
