@@ -2,9 +2,9 @@ const button = document.getElementById('menuicon');
 const website = document.querySelector('.website');
 const close = document.querySelector('.close');
 
-button.addEventListener('click', () => {
-  website.classList.toggle('active');
-});
+// button.addEventListener('click', () => {
+//   website.classList.toggle('active');
+// });
 
 close.addEventListener('click', () => {
   website.classList.remove('active');
@@ -62,6 +62,8 @@ mails.addEventListener('click', () => {
 document.getElementById("downloadBtn").addEventListener("click", function() {
     // Replace 'resume.pdf' with the path to your file
     const resumeUrl = './Resume-Tapish-Khari.pdf';
+
+    console.log("Hello");
 
     // Create a temporary <a> element to trigger the download
     const a = document.createElement('a');
