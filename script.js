@@ -1,12 +1,28 @@
 const button = document.getElementById('menuicon');
 const website = document.querySelector('.website');
 const close = document.querySelector('.close');
+const portfolio = document.querySelector('.portfolio');
+const about = document.querySelector('.About-page');
+const contact= document.querySelector('.contact');
 
-// button.addEventListener('click', () => {
-//   website.classList.toggle('active');
-// });
+
+button.addEventListener('click', () => {
+  website.classList.toggle('active');
+});
 
 close.addEventListener('click', () => {
+  website.classList.remove('active');
+});
+
+portfolio.addEventListener('click', () => {
+  website.classList.remove('active');
+});
+
+about.addEventListener('click', () => {
+  website.classList.remove('active');
+});
+
+contact.addEventListener('click', () => {
   website.classList.remove('active');
 });
 
